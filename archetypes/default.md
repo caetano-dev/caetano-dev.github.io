@@ -1,8 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author = "Drull"
-authorTwitter = "drull1000" #do not include @
+author = "Caetano"
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]

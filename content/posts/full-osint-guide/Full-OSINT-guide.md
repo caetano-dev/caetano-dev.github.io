@@ -1,9 +1,7 @@
 +++
 title = "Full OSINT Guide"
 date = "2022-05-23T10:13:24-03:00"
-author = "Drull"
-authorTwitter = "drull1000"
-cover = "./assets/osintCover.jpg"
+author = "Caetano"
 tags = ["OSINT", "Cybersecurity", "Hacking"]
 keywords =["OSINT", "Cybersecurity", "Hacking"]
 description = "A collection of everything I have learned about OSINT from various resources."
