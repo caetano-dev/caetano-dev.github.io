@@ -1,8 +1,6 @@
----
-title: "CV"
-date: 2025-12-15T17:00:00-05:00
-draft: false
----
++++
+title = "CV"
++++
 
 # Work Experience
 
