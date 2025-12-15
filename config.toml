@@ -1,7 +1,11 @@
-baseURL = 'https://caetano-dev.github.io/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Caetano - Blog'
 theme = "terminal"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [caches]
   [caches.images]
