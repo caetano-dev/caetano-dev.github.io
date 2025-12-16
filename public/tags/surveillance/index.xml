@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Surveillance on Pedro Caetano - Blog</title>
+    <link>//localhost:1313/tags/surveillance/</link>
+    <description>Recent content in Surveillance on Pedro Caetano - Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Jun 2022 12:30:10 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/surveillance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How and Why I Started Caring About Privacy</title>
+      <link>//localhost:1313/posts/how-and-why-i-started-caring-about-privacy/how-and-why-i-started-caring-about-privacy/</link>
+      <pubDate>Sat, 11 Jun 2022 12:30:10 -0300</pubDate>
+      <guid>//localhost:1313/posts/how-and-why-i-started-caring-about-privacy/how-and-why-i-started-caring-about-privacy/</guid>
+      <description>Explaining the reasons why I became someone who cares about online privacy and the path I followed to change my digital life.</description>
+    </item>
+  </channel>
+</rss>

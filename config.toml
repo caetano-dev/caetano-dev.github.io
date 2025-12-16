@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Pedro Caetano - Blog'
 theme = "PaperMod"
 
+[outputs]
+    home = [ "HTML", "RSS", "JSON" ]
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -14,9 +17,12 @@ theme = "PaperMod"
   contentTypeName = "posts"
   themeColor = "red"
   #change this if I want more item in the navbar
-  showMenuItems = 3
   fullWidthTheme = false 
   centerTheme = true 
+  ShowCodeCopyButtons = true
+  [params.homeInfoParams]
+    title = "Welcome"
+    Content = "Here, you can find my latest posts. Don't forget to check out the other pages."
 
 [languages]
     [languages.en]
@@ -47,3 +53,11 @@ theme = "PaperMod"
 		identifier = "cv"
 		name = "CV"
 		url = "/cv"
+            [[languages.en.menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search"
+            [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archives"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Countryside on Pedro Caetano - Blog</title>
+    <link>//localhost:1313/tags/countryside/</link>
+    <description>Recent content in Countryside on Pedro Caetano - Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Mar 2023 12:30:10 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/countryside/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Big cities are terrible</title>
+      <link>//localhost:1313/posts/big-cities-are-terrible/big-cities-are-terrible/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>//localhost:1313/posts/big-cities-are-terrible/big-cities-are-terrible/</guid>
+      <description>Ranting about how terrible big cities are and why I want to live in the countryside.</description>
+    </item>
+  </channel>
+</rss>
