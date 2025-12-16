@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lifestyle on Caetano - Blog</title>
-    <link>https://caetano-dev.github.io/tags/lifestyle/</link>
+    <link>/tags/lifestyle/</link>
     <description>Recent content in Lifestyle on Caetano - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Mar 2023 12:30:10 -0300</lastBuildDate><atom:link href="https://caetano-dev.github.io/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 12:30:10 -0300</lastBuildDate>
+    <atom:link href="/tags/lifestyle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Big cities are terrible</title>
-      <link>https://caetano-dev.github.io/posts/big-cities-are-terrible/big-cities-are-terrible/</link>
+      <link>/posts/big-cities-are-terrible/big-cities-are-terrible/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/posts/big-cities-are-terrible/big-cities-are-terrible/</guid>
-      <description>&lt;h1 id=&#34;big-cities-are-a-terrible&#34;&gt;Big cities are a terrible&lt;/h1&gt;
-&lt;p&gt;I want to get a remote job after I graduate, so that I can leave this shitty city where I live and move to the countryside or to another country. This place is too violent, loud, dirty and you almost have no peace at all living here. Every night feels like you are going to get your phone stolen or get killed by some criminal. Everything is expensive and everyone is trying to take advantages in detriment of other people. I like cyberpunk cities, but not in real life.&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;big-cities-are-a-terrible&#34;&gt;Big cities are a terrible&lt;/h1&gt;
-&lt;p&gt;I want to get a remote job after I graduate, so that I can leave this shitty city where I live and move to the countryside or to another country. This place is too violent, loud, dirty and you almost have no peace at all living here. Every night feels like you are going to get your phone stolen or get killed by some criminal. Everything is expensive and everyone is trying to take advantages in detriment of other people. I like cyberpunk cities, but not in real life.&lt;/p&gt;
-&lt;p&gt;Recently, I have spend 1 week in a small town in the countryside. It was one of the calmest weeks of my life. In the countryside, you have access to more trustworthy people, because they actually care about their reputation, so they treat you well and are honest. You can buy things for a cheaper price, specially land. Quality of life can&amp;rsquo;t even be compared and you&amp;rsquo;ll have a better mental health in contact with nature.&lt;/p&gt;
-&lt;p&gt;Whenever I watch the news in my city, all I see is violence, murder and people being stolen. That makes me feel like going to the woods and living isolated from the rest of the people. Someone who lives in the countryside has more freedom and power than any cosmopolitan could ever dream of, but most people who are stuck in the modern life fail to realize this.&lt;/p&gt;
-</content>
+      <guid>/posts/big-cities-are-terrible/big-cities-are-terrible/</guid>
+      <description>Ranting about how terrible big cities are and why I want to live in the countryside.</description>
     </item>
-    
   </channel>
 </rss>

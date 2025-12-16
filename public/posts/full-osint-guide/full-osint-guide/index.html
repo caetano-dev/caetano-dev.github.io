@@ -1,246 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  
-    <title>Full OSINT Guide :: Caetano - Blog</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A collection of everything I have learned about OSINT from various resources." />
-<meta name="keywords" content="OSINT, Cybersecurity, Hacking" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="https://caetano-dev.github.io/posts/full-osint-guide/full-osint-guide/" />
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Full OSINT Guide | Caetano - Blog</title>
+<meta name="keywords" content="OSINT, Cybersecurity, Hacking">
+<meta name="description" content="A collection of everything I have learned about OSINT from various resources.">
+<meta name="author" content="Caetano">
+<link rel="canonical" href="/posts/full-osint-guide/full-osint-guide/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/full-osint-guide/full-osint-guide/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="/posts/full-osint-guide/full-osint-guide/">
+  <meta property="og:site_name" content="Caetano - Blog">
+  <meta property="og:title" content="Full OSINT Guide">
+  <meta property="og:description" content="A collection of everything I have learned about OSINT from various resources.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-05-23T10:13:24-03:00">
+    <meta property="article:modified_time" content="2022-05-23T10:13:24-03:00">
+    <meta property="article:tag" content="OSINT">
+    <meta property="article:tag" content="Cybersecurity">
+    <meta property="article:tag" content="Hacking">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Full OSINT Guide">
+<meta name="twitter:description" content="A collection of everything I have learned about OSINT from various resources.">
 
 
-
-
-<link rel="stylesheet" href="https://caetano-dev.github.io/assets/style.css">
-
-  <link rel="stylesheet" href="https://caetano-dev.github.io/assets/red.css">
-
-
-
-
-
-
-<link rel="apple-touch-icon" href="https://caetano-dev.github.io/img/apple-touch-icon-192x192.png">
-
-  <link rel="shortcut icon" href="https://caetano-dev.github.io/img/favicon/red.png">
-
-
-
-<meta name="twitter:card" content="summary" />
-
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Full OSINT Guide">
-<meta property="og:description" content="A collection of everything I have learned about OSINT from various resources." />
-<meta property="og:url" content="https://caetano-dev.github.io/posts/full-osint-guide/full-osint-guide/" />
-<meta property="og:site_name" content="Caetano - Blog" />
-
-  
-    <meta property="og:image" content="https://caetano-dev.github.io/img/favicon/red.png">
-  
-
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
-
-
-  <meta property="article:published_time" content="2022-05-23 10:13:24 -0300 -03" />
-
-
-
-
-
-
-
-
-
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Full OSINT Guide",
+      "item": "/posts/full-osint-guide/full-osint-guide/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Full OSINT Guide",
+  "name": "Full OSINT Guide",
+  "description": "A collection of everything I have learned about OSINT from various resources.",
+  "keywords": [
+    "OSINT", "Cybersecurity", "Hacking"
+  ],
+  "articleBody": "How to do OSINT - A brief introduction. This is a collection of everything I have learned about OSINT from various resources over the internet. Be aware that some of the tools presented here may change or stop working with time, which is normal. The most important thing you should get out of this is to learn the methods used and be able to replicate them.\nThe goal of this guide is to show the path one should follow when doing research on a target. The guide is divided in different sections covering a wide range of topics. Each one of them has their own tools that I recommend and use.\nThis page will be updated with time as I find new resources and new tools. Happy hacking.\nWhat is OSINT? Open-source intelligence is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence. OSINT is primarily used in national security, law enforcement, and business intelligence functions and is of value to analysts who use non-sensitive intelligence in answering classified unclassified, or proprietary intelligence requirements across the previous intelligence disciplines. Read more.\nOSINT is the first phase of hacking.\nKeeping your data safe Before starting, it is important to make sure that your data is secure and that you won’t reveal your true identity. Ideally, we are not going to interact directly with our target, but it is always essential to stay secure.\nPassword managers You want to keep the information you are collecting as private as possible. In order to do that, it is essential to use a password manager like Bitwarden.\nOther tips:\nGenerate a strong password and use it for only one account. Enable 2FA. Don’t save passwords in browsers. Never answer online security questions truthfully, since those are vulnerable to social engineering. Avoid using SMS for 2FA. Consider unique usernames. ️Secure email Another significant step is to use a secure email provider that offers encryption, such as Protonmail.\nOther tips:\nKeep your email address private Disable automatic loading of remote content Don’t share sensitive data via email. You can use onionshare to share sensitive files. Use aliasing/anonymous forwarding (ex: SimpleLogin) Encryption Before backing up your data in the cloud, it is encouraged to encrypt it. For that, you can use Cryptomator.\nSock Puppets A sock puppet is a fake identity you assume on the internet so that you don’t give out your real data. This should never link back to your true identity. Sock puppets should look real and be active online to look more legitimate.\nYou must generate a fake profile and add fake data to it. This data should be the same across all the sock puppets’ accounts. Remember: women are better at social engineering. Don’t use other people’s photos, because that could be easily reverse searched. You can use something like this person does not exist.\nSock puppets are of extreme importance in case you are investigating dangerous people. If it is affordable to you, you should use burner phones and computers to manage the accounts. Use a VPN instead of your real IP address. Searches Now it’s time to talk about search engines and how to better utilize them. When we are searching for something on Google, for example, it is very common to find a bunch of irrelevant and messy results. When we are doing an OSINT investigation, it is important to filter the good results from the bad ones. That’s why we use something called search operators.\nSearch operators There are a number of commands you can use to refine your search results.\nResults about cats or dogs\ncats dogs\nResults for exact term “cats and dogs”. If no results are found, related results will be shown.\n\"cats and dogs\"\nFewer dogs in results\ncats -dogs\nFind subdomains of dogs.com\nsite:dogs.com -www\nMore dogs in results\ncats +dogs\nPDFs about cats. Supported file types: pdf, doc(x), xls(x), ppt(x), html\ncats filetype:pdf\nPages about dogs from example.com\ndogs site:example.com\nPages about cats, excluding example.com\ncats -site:example.com\nPage title includes the word “dogs”\nintitle:dogs\nPage text includes the word “dogs”\nintext:dogs\nPage url includes the word “cats”\ninurl:cats\nPages that include the cached pages for dogs.com\ncache: dogs.com\nPages include the word “cats” and “dogs”\ncats AND dogs\nPages include the word “cats” OR “dogs”\ncats OR dogs\nPages that include the phrase “cats [something] dogs”\ncats * dogs\nBonus: - Google alerts can alert you of new search results for what you are looking for. - Google Hacking Database can provide you a list of interesting combinations using search operators. - Dorksearch for faster google dorking.\nFor people If you are looking for a specific person, a good way to start is to look for the person’s name on a search engine. If you want something more specific, you can go over to whitepages or truepeoplesearch, although these websites are more focused on the USA.\nIf you want to pull out voting records of people, you can use something like Voterrecords and politicalmoneyline to try finding donations to public parties. Look for relatives and friends of the target, since these people might post additional information online. scamdigger helps you find if a person your are looking for is in reality a scammer. Try finding aliases and alternative names of the target and so research on them. You can check death records to see if a person is impersonating someone else who has already died. statefarm If you have the target’s phone number and date of birth to see if they have vehicles under state farm and insurance. It also shows a partially redacted email address. Other options: - ufind - officialUSA - fastpeoplesearch - fastbackgroundcheck - webmii - thatsthem - xlek aka cubib - blackbookonline - pipl - paid/personal information required - findagrave - ancestry\nFamily trees - FamilySearch - FamilyTree - Geni\nFor criminal records ncsc has a ton of court records. nsopv to find sex offender records. Federal Bureau of Prisons Locate the whereabouts of a federal inmate incarcerated from 1982 to the present. hotgunz find if a firearm is stolen or not. For businesses If you are doing OSINT on a business, the first place to look at is their website and social media, specially LinkedIn.\nCheck for company directory in the URL, news, forums, phone numbers, employees, and their positions, photos and what is contained in them If you look for photos you might be able to get some data from your target, such as sticky notes, operating systems and metadata. Look for the company name in a government website that can give you some legal data, such as directors, CEOs and other names. Look for complaints and reviews. OpenCorporates has information on companies and officers. indeed is useful to see what skills employees need to work in a specific company. opencorporates for global searches and find officers. For websites Some data you can extract from websites are: technologies used, IP addresses, who is hosting it, subdomains, etc…\nCentralOps can be used to find a lot of information about the host. It is possible to find sensitive information on who is hosting the website. dnslytics Reverse IP search. If someone hosts their own server, you can use it to find other registered websites. If you want to check for website changes, you can use changetower ahrefs is a website that allows you to look for backlinks Shodan can also be used to look for vulnerabilities, if you have an IP address. Some websites might have some subdomains online that shouldn’t be available to the public. You can use search operators to look for some subdomains like “dev”, “forums”, “admin”, “adm”, “VPN” by subtracting www and adding inurl: URL. You can use sublist3r, OWASP Amass and crt.sh to list subdomains of a website Wayback machine can show you old versions of the website. On Google, you can open the cached website by clicking on the arrow next to the link. BuiltWith to find the technologies used. spiderfoot is a software that allows you to scan a website. HTtrack clones a website. Useful to keep an offline copy. Other options:\ndomaintools urlscan.io viewdns.info a lot of useful tools to analyze websites subfinder, assetfinder for finding subdomains. CLI. Gowitness: CLI tool for taking screenshots of domains For phone numbers For searching phone numbers, you can first look for them on Google and see what comes out. If you don’t get interesting results, try searching with hifens, area codes or even spell the numbers. Play with the syntax. Even a phone emoji 📱 can be useful.\nIf google or any other search engine does not work, the websites used for searching people can also be used for phone numbers. If you have the person’s email, you can test if they have a phone number associated with the account by going to reset password. Other options:\nTruecaller Phoneinfoga For birthdates If you want to look for someone’s birthday, try looking for that on Google and use search operators. Twitter is a great place to look at.\nFor resumes Google and other search engines can easily help you find resumes. Try looking for images and PDFs. You can also look for the person’s name on LinkedIn.\nYou can combine search operators to look for them in places like google, Dropbox, scribd. Other options:\nindeed search resumes free For IoT and connected devices You can find vulnerable IoT devices on shodan.io and find IP addresses, location, open vulnerable ports (such as 3389) and more.\nwigle.net is a map of wireless networks. For aircraft Most aircraft can be tracked down due to the unencrypted data transmitted. Every aircraft has a unique serial number and there are websites capable of tracking them, such as radarbox\nYou can copy the plane number and look for more info about it on aviationdb You can also listen to the conversation between the pilots and the control tower on liveatc.net Other options:\nflightradar For license plates findbyplate can find information of a vehicle if you have its license plate. Social media Social media can be a goldmine for OSINT researchers. It is incredible the amount of data someone can get from a specific person just by looking at their profile. When analyzing someone’s profile, try to look for everything you can. Photos, relatives, workplace, check-ins, friends, interests, etc…\nTwitter Tweets from a person can be very revealing, and usually people put everything about their lives online.\nFor Twitter OSINT, there are tools that can help you with your investigation, but you should start playing with the search bar. Twitter has search operators that can be used to narrow down the results.\nBesides the standard search operators, Twitter has some specific ones, such as:\nSent from the NASA account from:nasa\nReplying to NASA to:nasa\nMentioning NASA @nasa\nYou can even look for geocodes with a km range. All you need is the latitude and longitude.\nA full list can be found here\nOther options:\nsocialbearing can search based on geolocation. twitonomy tweetbeaver spoonbill tinfoleak botometer Twint CLI tool Facebook On Facebook, you can use the search bar and narrow down some results.\nSome search operators are:\nShow photos of lizards photos of Mark Zuckerberg\nFacebook has OCR features. That means you can find images by searching for the text contained in it. You can find an account’s ID by looking at the source code of it, or by going to findmyfbid. graph.tips is a tool for searching facebook better. stalkface for stalking someone with more details. Other options:\nintelx.io Instagram Most of the Instagram OSINT is covered in the photos section, but there are some tools that can be used.\nLook at whom the person follows in their account Other options:\ncodeofaninja intagram id YouTube When investigating YouTube videos, it is useful to do some reverse image search on the content we are watching. In order to do that, we can use some tools like the citizen evidence amnesty usa website to pull extra data from the video and get thumbnails to search.\nReddit Reddit is a popular place on the internet where a lot of people post a wide range of different topics.\nresavr and undditare tools that allow us to find deleted comments and posts from reddit threads. Snapchat Snapchat has a map. You can look for snaps in a certain area.\nLinkedIn LinkedIn is an awesome place to look for connections and work information of someone.\nIf you want to find a person’s full name, you can install Revealin and use it on the terminal. Images If everything you have from your target is a picture, extract everything you can from it. Is it a car picture? Does it have a plate? What’s the side of the steering wheel? What are the surroundings?\nReverse image search You can look for the image source by using a search engine that has a reverse image search feature, such as Google image search and Yandex.\nYandex has the ability to search for similar pictures. You can combine it with search operators. If your results are not good, you can try using remove.bg to remove its background and isolate a person in the image. Other options:\nTinEye EXIF data EXIF data is metadata that can be viewed from an image. It can reveal location, device used to take the picture, time and more.\nYou can use tools such as metagoofil to harvest data from different files.\nOther options:\npic2map Shows where the image was taken based on the metadata. Deepfakes Deepfakes are gaining popularity quick, and they can be used in a bunch of different ways. As they get more real, spotting them becomes harder, so there are tools out there to help us detect deep fakes, such as deepware.\nPhysical locations A lot of what was learned in the images section can be applied for physical location osint. You can view the area online and look for strategical spots that might be interesting to you.\ngeolocatethis is a cli tool to find two places next to each other. Satellite images You should check satellite photos of the location and absorb all you can about the place. Entrances, parking lots, employees and their dress code, badge readers, security, cameras… everything is important.\nCredentials discovery Data breaches are a great resource to use in order to find data breaches. It’s impossible to link them here for obvious reasons, you can look for magnet links on btdigg and for pastebins on psbdmp and similar websites.\nUsernames whatsmyname and Namechk are good tools to see where a username is being used, and its accounts tied to it.\nIt is an awesome way to find old accounts that may contain critical information. Sherlock is a python CLI tool that looks for usernames. Other options:\nknowem instantusername Emails Have I been pwned is a good place to look for emails that have been found in data breaches.\nA good technique is to simply go to the Gmail login and see if the email exists. You can even click on “I forgot my password” and see if there are other emails linked to that account. If you want to search for emails related to companies and its employees, you can check its name on hunter.io. This website can give you emails and show you their domain patterns. In order to verify if the emails are valid, you can use email-checker. Other options:\nScylla phonebook.cz epieos Passwords When we are talking about passwords in OSINT, we are talking about finding breached credentials.\nBy finding email and passwords, we can analyze them and look for a potential pattern that might come out. You can use dehashed.com to see if a login has been breached. If you are dealing with a hashed password, a good thing to do is to try dehashing it on hashes.com Real state When investigating real state, there are some tools that can help us get access to public records, information on who is selling it, etc…\nSome websites are: redfin, zillow and biggerpockets. Note that not every house is going to be available on those websites for you to check, but it can be useful in a few cases.\nDeep web Take caution when accessing websites in the deep web. Never reveal your true identity or use the same email to create accounts.\nThe deep web has a lot of websites that can help you find data breaches and other information that is not indexed in the surface web.\nexonarator allows you to enter an IP address and date to find out whether that address was used as a Tor relay. ahmia searches hidden services on the deep web. It can be used in the surface. TheHiddenWiki has a list of hidden services. ddosecrets similar to wikileaks. Frameworks OSINT frameworks are basically a collection of tools in one place. Some of them are:\nOSINT framework Recon-ng Maltego Hunchly https://github.com/mxrch/GHunt Holehe Report writing You should write an easy-to-read report containing the information that you found about the target and the steps necessary to get to them. Good reports use a non-technical language should be accessible to anyone.\nYou can add a timeline report logging your steps. Create a profile of your target with quick information found and some links. ",
+  "wordCount" : "2881",
+  "inLanguage": "en",
+  "datePublished": "2022-05-23T10:13:24-03:00",
+  "dateModified": "2022-05-23T10:13:24-03:00",
+  "author":{
+    "@type": "Person",
+    "name": "Caetano"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/full-osint-guide/full-osint-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Caetano - Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
-<body class="red">
-
-
-<div class="container center headings--one-size">
-
-  <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="/">
-  <div class="logo">
-    Caetano
-  </div>
-</a>
-
-    </div>
-    
-      <div class="menu-trigger">menu</div>
-    
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
-    
-      
-        
-          <li><a href="/about">About</a></li>
-        
-      
-        
-          <li><a href="/cv">CV</a></li>
-        
-      
-        
-          <li><a href="/">Home</a></li>
-        
-      
-      
-    
-
-    
-  </ul>
-
-  <ul class="menu__inner menu__inner--mobile">
-    
-      
-        <li><a href="/about">About</a></li>
-      
-    
-      
-        <li><a href="/cv">CV</a></li>
-      
-    
-      
-        <li><a href="/">Home</a></li>
-      
-    
-    
-  </ul>
-</nav>
-
-  
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Caetano - Blog (Alt + H)">Caetano - Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/cv" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </header>
+<main class="main">
 
-
-  <div class="content">
+<article class="post-single">
+  <header class="post-header">
     
-<div class="post">
-  <h1 class="post-title">
-    <a href="https://caetano-dev.github.io/posts/full-osint-guide/full-osint-guide/">Full OSINT Guide</a></h1>
-  <div class="post-meta">
-    
-      <span class="post-date">
-        2022-05-23
-        
-      </span>
-    
-    
-      <span class="post-author">:: Caetano</span>
-    
-    
-      <span class="post-reading-time">:: 14 min read (2881 words)</span>
-    
-  </div>
-
-  
-  <span class="post-tags">
-    
-    #<a href="https://caetano-dev.github.io/tags/osint/">OSINT</a>&nbsp;
-    
-    #<a href="https://caetano-dev.github.io/tags/cybersecurity/">Cybersecurity</a>&nbsp;
-    
-    #<a href="https://caetano-dev.github.io/tags/hacking/">Hacking</a>&nbsp;
-    
-  </span>
-  
-  
-
-
-  
-    <div class="table-of-contents">
-      <h2>
-        Table of contents
-      </h2>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#what-is-osint">What is OSINT?</a></li>
-    <li><a href="#keeping-your-data-safe">Keeping your data safe</a>
-      <ul>
-        <li><a href="#password-managers">Password managers</a></li>
-        <li><a href="#secure-email">️Secure email</a></li>
-        <li><a href="#encryption">Encryption</a></li>
-        <li><a href="#sock-puppets">Sock Puppets</a></li>
-      </ul>
-    </li>
-    <li><a href="#searches">Searches</a>
-      <ul>
-        <li><a href="#search-operators">Search operators</a></li>
-        <li><a href="#for-people">For people</a></li>
-        <li><a href="#for-criminal-records">For criminal records</a></li>
-        <li><a href="#for-businesses">For businesses</a></li>
-        <li><a href="#for-websites">For websites</a></li>
-        <li><a href="#for-phone-numbers">For phone numbers</a></li>
-        <li><a href="#for-birthdates">For birthdates</a></li>
-        <li><a href="#for-resumes">For resumes</a></li>
-        <li><a href="#for-iot-and-connected-devices">For IoT and connected devices</a></li>
-        <li><a href="#for-aircraft">For aircraft</a></li>
-        <li><a href="#for-license-plates">For license plates</a></li>
-      </ul>
-    </li>
-    <li><a href="#social-media">Social media</a>
-      <ul>
-        <li><a href="#twitter">Twitter</a></li>
-        <li><a href="#facebook">Facebook</a></li>
-        <li><a href="#instagram">Instagram</a></li>
-        <li><a href="#youtube">YouTube</a></li>
-        <li><a href="#reddit">Reddit</a></li>
-        <li><a href="#snapchat">Snapchat</a></li>
-        <li><a href="#linkedin">LinkedIn</a></li>
-      </ul>
-    </li>
-    <li><a href="#images">Images</a>
-      <ul>
-        <li><a href="#reverse-image-search">Reverse image search</a></li>
-        <li><a href="#exif-data">EXIF data</a></li>
-        <li><a href="#deepfakes">Deepfakes</a></li>
-      </ul>
-    </li>
-    <li><a href="#physical-locations">Physical locations</a>
-      <ul>
-        <li><a href="#satellite-images">Satellite images</a></li>
-      </ul>
-    </li>
-    <li><a href="#credentials-discovery">Credentials discovery</a>
-      <ul>
-        <li><a href="#usernames">Usernames</a></li>
-        <li><a href="#emails">Emails</a></li>
-        <li><a href="#passwords">Passwords</a></li>
-      </ul>
-    </li>
-    <li><a href="#real-state">Real state</a></li>
-    <li><a href="#deep-web">Deep web</a></li>
-    <li><a href="#frameworks">Frameworks</a></li>
-    <li><a href="#report-writing">Report writing</a></li>
-  </ul>
-</nav>
+    <h1 class="post-title entry-hint-parent">
+      Full OSINT Guide
+    </h1>
+    <div class="post-description">
+      A collection of everything I have learned about OSINT from various resources.
     </div>
-  
+    <div class="post-meta"><span title='2022-05-23 10:13:24 -0300 -03'>May 23, 2022</span>&nbsp;·&nbsp;<span>Caetano</span>
 
-  <div class="post-content"><div>
-        <h1 id="how-to-do-osint---a-brief-introduction">How to do OSINT - A brief introduction.<a href="#how-to-do-osint---a-brief-introduction" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+</div>
+  </header> 
+  <div class="post-content"><h1 id="how-to-do-osint---a-brief-introduction">How to do OSINT - A brief introduction.<a hidden class="anchor" aria-hidden="true" href="#how-to-do-osint---a-brief-introduction">#</a></h1>
 <p>This is a collection of everything I have learned about OSINT from various resources over the internet. Be aware that some of the tools presented here may change or stop working with time, which is normal. The most important thing you should get out of this is <strong>to learn the methods used and be able to replicate them.</strong></p>
 <p>The goal of this guide is to show the path one should follow when doing research on a target. The guide is divided in different sections covering a wide range of topics. Each one of them has their own tools that I recommend and use.</p>
 <p>This page will be updated with time as I find new resources and new tools. Happy hacking.</p>
-<h2 id="what-is-osint">What is OSINT?<a href="#what-is-osint" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="what-is-osint">What is OSINT?<a hidden class="anchor" aria-hidden="true" href="#what-is-osint">#</a></h2>
 <p>Open-source intelligence is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence. OSINT is primarily used in national security, law enforcement, and business intelligence functions and is of value to analysts who use non-sensitive intelligence in answering classified unclassified, or proprietary intelligence requirements across the previous intelligence disciplines. <a href="https://en.wikipedia.org/wiki/Open-source_intelligence">Read more.</a></p>
 <p><strong>OSINT is the first phase of hacking.</strong></p>
-<h2 id="keeping-your-data-safe">Keeping your data safe<a href="#keeping-your-data-safe" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="keeping-your-data-safe">Keeping your data safe<a hidden class="anchor" aria-hidden="true" href="#keeping-your-data-safe">#</a></h2>
 <p>Before starting, it is important to make sure that your data is secure and that you won’t reveal your true identity. Ideally, we are not going to interact directly with our target, but it is always essential to stay secure.</p>
-<h3 id="password-managers">Password managers<a href="#password-managers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="password-managers">Password managers<a hidden class="anchor" aria-hidden="true" href="#password-managers">#</a></h3>
 <p>You want to keep the information you are collecting <strong>as private as possible.</strong> In order to do that, it is essential to use a password manager like <a href="https://bitwarden.com/">Bitwarden.</a></p>
 <p>Other tips:</p>
 <ul>
@@ -251,7 +223,7 @@
 <li>Avoid using SMS for 2FA.</li>
 <li>Consider unique usernames.</li>
 </ul>
-<h3 id="secure-email">️Secure email<a href="#secure-email" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="secure-email">️Secure email<a hidden class="anchor" aria-hidden="true" href="#secure-email">#</a></h3>
 <p>Another significant step is to use a secure email provider that offers encryption, such as <a href="https://protonmail.com/">Protonmail.</a></p>
 <p>Other tips:</p>
 <ul>
@@ -260,9 +232,9 @@
 <li>Don’t share sensitive data via email. You can use <a href="https://onionshare.org/">onionshare</a> to share sensitive files.</li>
 <li>Use aliasing/anonymous forwarding (ex: <a href="https://simplelogin.io/?slref=bridsqrgvrnavso">SimpleLogin</a>)</li>
 </ul>
-<h3 id="encryption">Encryption<a href="#encryption" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="encryption">Encryption<a hidden class="anchor" aria-hidden="true" href="#encryption">#</a></h3>
 <p>Before backing up your data in the cloud, it is encouraged to encrypt it. For that, you can use <a href="https://cryptomator.org/">Cryptomator.</a></p>
-<h3 id="sock-puppets">Sock Puppets<a href="#sock-puppets" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="sock-puppets">Sock Puppets<a hidden class="anchor" aria-hidden="true" href="#sock-puppets">#</a></h3>
 <p>A sock puppet is a fake identity you assume on the internet so that you don’t give out your real data. <strong>This should never link back to your true identity.</strong> Sock puppets should look real and be active online to look more legitimate.</p>
 <p><strong>You must generate a fake profile and add fake data to it.</strong> This data should be the same across all the sock puppets’ accounts. Remember: women are better at social engineering. Don’t use other people’s photos, because that could be easily reverse searched. You can use something like <a href="https://thispersondoesnotexist.com/">this person does not exist</a>.</p>
 <ul>
@@ -270,9 +242,9 @@
 <li>If it is affordable to you, you should use burner phones and computers to manage the accounts.</li>
 <li>Use a VPN instead of your real IP address.</li>
 </ul>
-<h2 id="searches">Searches<a href="#searches" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="searches">Searches<a hidden class="anchor" aria-hidden="true" href="#searches">#</a></h2>
 <p>Now it’s time to talk about search engines and how to better utilize them. When we are searching for something on Google, for example, it is very common to find a bunch of irrelevant and messy results. When we are doing an OSINT investigation, it is important to filter the good results from the bad ones. That’s why we use something called search operators.</p>
-<h3 id="search-operators">Search operators<a href="#search-operators" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="search-operators">Search operators<a hidden class="anchor" aria-hidden="true" href="#search-operators">#</a></h3>
 <p>There are a number of commands you can use to refine your search results.</p>
 <ul>
 <li>
@@ -337,7 +309,7 @@
 </li>
 </ul>
 <p>Bonus: - <a href="https://google.com/alerts">Google alerts</a> can alert you of new search results for what you are looking for. - <a href="https://www.exploit-db.com/google-hacking-database">Google Hacking Database</a> can provide you a list of interesting combinations using search operators. - <a href="https://dorksearch.com/">Dorksearch</a> for faster google dorking.</p>
-<h3 id="for-people">For people<a href="#for-people" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-people">For people<a hidden class="anchor" aria-hidden="true" href="#for-people">#</a></h3>
 <p>If you are looking for a specific person, a good way to start is to look for the person’s name on a search engine. If you want something more specific, you can go over to <a href="https://whitepages.com/">whitepages</a> or <a href="https://truepeoplesearch.com/">truepeoplesearch</a>, although these websites are more focused on the USA.</p>
 <ul>
 <li>If you want to pull out voting records of people, you can use something like <a href="https://voterrecords.com/">Voterrecords</a> and <a href="https://www.politicalmoneyline.com/">politicalmoneyline</a> to try finding donations to public parties.</li>
@@ -349,14 +321,14 @@
 </ul>
 <p>Other options: - <a href="https://ufind.name/">ufind</a> - <a href="https://www.officialusa.com/names/Jack-Smith-ii/">officialUSA</a> - <a href="https://fastpeopesearch.com/">fastpeoplesearch</a> - <a href="https://fastbackgroundcheck.com/">fastbackgroundcheck</a> - <a href="https://webmii.com/">webmii</a> - <a href="https://thatsthem.com/">thatsthem</a> - <a href="https://xlek.com/">xlek</a> aka cubib - <a href="https://www.blackbookonline.info/">blackbookonline</a> - <a href="https://pipl.com/">pipl</a> - paid/personal information required - <a href="https://findagrave.com/">findagrave</a> - <a href="https://www.ancestry.com/search/collections/60525/">ancestry</a></p>
 <p>Family trees - <a href="https://www.familysearch.org/tree/overview">FamilySearch</a> - <a href="https://www.familytree.com/">FamilyTree</a> - <a href="https://www.geni.com/">Geni</a></p>
-<h3 id="for-criminal-records">For criminal records<a href="#for-criminal-records" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-criminal-records">For criminal records<a hidden class="anchor" aria-hidden="true" href="#for-criminal-records">#</a></h3>
 <ul>
 <li><a href="https://ncsc-search.squiz.cloud/s/search.html?collection=ncsc-meta&amp;profile=_default&amp;query=public%20records">ncsc</a> has a ton of court records.</li>
 <li><a href="https://www.nsopw.gov/">nsopv</a> to find sex offender records.</li>
 <li><a href="https://www.bop.gov/inmateloc/">Federal Bureau of Prisons</a> Locate the whereabouts of a federal inmate incarcerated from 1982 to the present.</li>
 <li><a href="https://www.hotgunz.com/">hotgunz</a> find if a firearm is stolen or not.</li>
 </ul>
-<h3 id="for-businesses">For businesses<a href="#for-businesses" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-businesses">For businesses<a hidden class="anchor" aria-hidden="true" href="#for-businesses">#</a></h3>
 <p>If you are doing OSINT on a business, the first place to look at is their website and social media, specially LinkedIn.</p>
 <ul>
 <li>Check for company directory in the URL, news, forums, phone numbers, employees, and their positions, photos and what is contained in them</li>
@@ -367,7 +339,7 @@
 <li><a href="https://indeed.com/">indeed</a> is useful to see what skills employees need to work in a specific company.</li>
 <li><a href="https://opencorporates.com/">opencorporates</a> for global searches and find officers.</li>
 </ul>
-<h3 id="for-websites">For websites<a href="#for-websites" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-websites">For websites<a hidden class="anchor" aria-hidden="true" href="#for-websites">#</a></h3>
 <p>Some data you can extract from websites are: technologies used, IP addresses, who is hosting it, subdomains, etc…</p>
 <ul>
 <li><a href="https://centralops.net/co/">CentralOps</a> can be used to find <strong>a lot of information</strong> about the host. It is possible to find sensitive information on who is hosting the website.</li>
@@ -390,7 +362,7 @@
 <li>subfinder, assetfinder for finding subdomains. CLI.</li>
 <li>Gowitness: CLI tool for taking screenshots of domains</li>
 </ul>
-<h3 id="for-phone-numbers">For phone numbers<a href="#for-phone-numbers" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-phone-numbers">For phone numbers<a hidden class="anchor" aria-hidden="true" href="#for-phone-numbers">#</a></h3>
 <p>For searching phone numbers, you can first look for them on Google and see what comes out. If you don’t get interesting results, try searching with hifens, area codes or even spell the numbers. Play with the syntax. Even a phone emoji 📱 can be useful.</p>
 <ul>
 <li>If google or any other search engine does not work, the websites used for searching people can also be used for phone numbers.</li>
@@ -401,9 +373,9 @@
 <li><a href="https://truecaller.com/">Truecaller</a></li>
 <li>Phoneinfoga</li>
 </ul>
-<h3 id="for-birthdates">For birthdates<a href="#for-birthdates" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-birthdates">For birthdates<a hidden class="anchor" aria-hidden="true" href="#for-birthdates">#</a></h3>
 <p>If you want to look for someone’s birthday, try looking for that on Google and use search operators. Twitter is a great place to look at.</p>
-<h3 id="for-resumes">For resumes<a href="#for-resumes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-resumes">For resumes<a hidden class="anchor" aria-hidden="true" href="#for-resumes">#</a></h3>
 <p>Google and other search engines can easily help you find resumes. Try looking for images and PDFs. You can also look for the person’s name on LinkedIn.</p>
 <ul>
 <li>You can combine search operators to look for them in places like google, Dropbox, scribd.</li>
@@ -413,12 +385,12 @@
 <li><a href="https://indeed.com/">indeed</a></li>
 <li><a href="https://jobvertise.com/">search resumes free</a></li>
 </ul>
-<h3 id="for-iot-and-connected-devices">For IoT and connected devices<a href="#for-iot-and-connected-devices" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-iot-and-connected-devices">For IoT and connected devices<a hidden class="anchor" aria-hidden="true" href="#for-iot-and-connected-devices">#</a></h3>
 <p>You can find vulnerable IoT devices on <a href="https://shodan.io/">shodan.io</a> and find IP addresses, location, open vulnerable ports (such as 3389) and more.</p>
 <ul>
 <li><a href="https://wigle.net/">wigle.net</a> is a map of wireless networks.</li>
 </ul>
-<h3 id="for-aircraft">For aircraft<a href="#for-aircraft" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-aircraft">For aircraft<a hidden class="anchor" aria-hidden="true" href="#for-aircraft">#</a></h3>
 <p>Most aircraft can be tracked down due to the unencrypted data transmitted. Every aircraft has a unique serial number and there are websites capable of tracking them, such as <a href="https://radarbox.com/">radarbox</a></p>
 <ul>
 <li>You can copy the plane number and look for more info about it on <a href="https://aviationdb.net/">aviationdb</a></li>
@@ -428,13 +400,13 @@
 <ul>
 <li><a href="https://flightradar24.com/">flightradar</a></li>
 </ul>
-<h3 id="for-license-plates">For license plates<a href="#for-license-plates" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="for-license-plates">For license plates<a hidden class="anchor" aria-hidden="true" href="#for-license-plates">#</a></h3>
 <ul>
 <li><a href="https://findbyplate.com/">findbyplate</a> can find information of a vehicle if you have its license plate.</li>
 </ul>
-<h2 id="social-media">Social media<a href="#social-media" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="social-media">Social media<a hidden class="anchor" aria-hidden="true" href="#social-media">#</a></h2>
 <p>Social media can be a goldmine for OSINT researchers. It is incredible the amount of data someone can get from a specific person just by looking at their profile. When analyzing someone’s profile, try to look for everything you can. Photos, relatives, workplace, check-ins, friends, interests, etc…</p>
-<h3 id="twitter">Twitter<a href="#twitter" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="twitter">Twitter<a hidden class="anchor" aria-hidden="true" href="#twitter">#</a></h3>
 <p>Tweets from a person can be very revealing, and usually people put everything about their lives online.</p>
 <p>For Twitter OSINT, there are tools that can help you with your investigation, but you should start playing with the search bar. Twitter has search operators that can be used to narrow down the results.</p>
 <p>Besides the standard search operators, Twitter has some specific ones, such as:</p>
@@ -462,7 +434,7 @@
 <li><a href="https://botometer.osome.iu.edu/">botometer</a></li>
 <li>Twint CLI tool</li>
 </ul>
-<h3 id="facebook">Facebook<a href="#facebook" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="facebook">Facebook<a hidden class="anchor" aria-hidden="true" href="#facebook">#</a></h3>
 <p>On Facebook, you can use the search bar and narrow down some results.</p>
 <p>Some search operators are:</p>
 <ul>
@@ -479,7 +451,7 @@
 <ul>
 <li><a href="https://intelx.io/tools?tab=facebook">intelx.io</a></li>
 </ul>
-<h3 id="instagram">Instagram<a href="#instagram" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="instagram">Instagram<a hidden class="anchor" aria-hidden="true" href="#instagram">#</a></h3>
 <p>Most of the Instagram OSINT is covered in the photos section, but there are some tools that can be used.</p>
 <ul>
 <li>Look at whom the person follows in their account</li>
@@ -488,23 +460,23 @@
 <ul>
 <li><a href="https://tools.codeofaninja.com/find-instagram-user-id">codeofaninja intagram id</a></li>
 </ul>
-<h3 id="youtube">YouTube<a href="#youtube" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="youtube">YouTube<a hidden class="anchor" aria-hidden="true" href="#youtube">#</a></h3>
 <p>When investigating YouTube videos, it is useful to do some reverse image search on the content we are watching. In order to do that, we can use some tools like the <a href="https://citizenevidence.amnestyusa.org/">citizen evidence amnesty usa</a> website to pull extra data from the video and get thumbnails to search.</p>
-<h3 id="reddit">Reddit<a href="#reddit" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="reddit">Reddit<a hidden class="anchor" aria-hidden="true" href="#reddit">#</a></h3>
 <p>Reddit is a popular place on the internet where a lot of people post a wide range of different topics.</p>
 <ul>
 <li><a href="https://www.resavr.com/">resavr</a> and <a href="https://www.unddit.com/">unddit</a>are tools that allow us to find deleted comments and posts from reddit threads.</li>
 </ul>
-<h3 id="snapchat">Snapchat<a href="#snapchat" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="snapchat">Snapchat<a hidden class="anchor" aria-hidden="true" href="#snapchat">#</a></h3>
 <p>Snapchat has a <a href="https://map.snapchat.com/">map</a>. You can look for snaps in a certain area.</p>
-<h3 id="linkedin">LinkedIn<a href="#linkedin" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="linkedin">LinkedIn<a hidden class="anchor" aria-hidden="true" href="#linkedin">#</a></h3>
 <p>LinkedIn is an awesome place to look for connections and work information of someone.</p>
 <ul>
 <li>If you want to find a person’s full name, you can install <a href="https://github.com/mxrch/revealin">Revealin</a> and use it on the terminal.</li>
 </ul>
-<h2 id="images">Images<a href="#images" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="images">Images<a hidden class="anchor" aria-hidden="true" href="#images">#</a></h2>
 <p>If everything you have from your target is a picture, <strong>extract everything you can from it.</strong> Is it a car picture? Does it have a plate? What’s the side of the steering wheel? What are the surroundings?</p>
-<h3 id="reverse-image-search">Reverse image search<a href="#reverse-image-search" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="reverse-image-search">Reverse image search<a hidden class="anchor" aria-hidden="true" href="#reverse-image-search">#</a></h3>
 <p>You can look for the image source by using a search engine that has a reverse image search feature, such as <a href="https://images.google.com/">Google image search</a> and <a href="https://yandex.com/">Yandex</a>.</p>
 <ul>
 <li>Yandex has the ability to search for similar pictures.</li>
@@ -515,25 +487,25 @@
 <ul>
 <li><a href="https://tineye.com/">TinEye</a></li>
 </ul>
-<h3 id="exif-data">EXIF data<a href="#exif-data" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="exif-data">EXIF data<a hidden class="anchor" aria-hidden="true" href="#exif-data">#</a></h3>
 <p>EXIF data is metadata that can be viewed from an image. It can reveal location, device used to take the picture, time and more.</p>
 <p>You can use tools such as <a href="https://github.com/laramies/metagoofil">metagoofil</a> to harvest data from different files.</p>
 <p>Other options:</p>
 <ul>
 <li><a href="https://www.pic2map.com/">pic2map</a> Shows where the image was taken based on the metadata.</li>
 </ul>
-<h3 id="deepfakes">Deepfakes<a href="#deepfakes" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="deepfakes">Deepfakes<a hidden class="anchor" aria-hidden="true" href="#deepfakes">#</a></h3>
 <p>Deepfakes are gaining popularity quick, and they can be used in a bunch of different ways. As they get more real, spotting them becomes harder, so there are tools out there to help us detect deep fakes, such as <a href="https://deepware.ai/">deepware</a>.</p>
-<h2 id="physical-locations">Physical locations<a href="#physical-locations" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="physical-locations">Physical locations<a hidden class="anchor" aria-hidden="true" href="#physical-locations">#</a></h2>
 <p>A lot of what was learned in the images section can be applied for physical location osint. You can view the area online and look for strategical spots that might be interesting to you.</p>
 <ul>
 <li><a href="https://github.com/musafir-py/geolocatethis">geolocatethis</a> is a cli tool to find two places next to each other.</li>
 </ul>
-<h3 id="satellite-images">Satellite images<a href="#satellite-images" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="satellite-images">Satellite images<a hidden class="anchor" aria-hidden="true" href="#satellite-images">#</a></h3>
 <p>You should check satellite photos of the location and absorb all you can about the place. Entrances, parking lots, employees and their dress code, badge readers, security, cameras… everything is important.</p>
-<h2 id="credentials-discovery">Credentials discovery<a href="#credentials-discovery" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="credentials-discovery">Credentials discovery<a hidden class="anchor" aria-hidden="true" href="#credentials-discovery">#</a></h2>
 <p>Data breaches are a great resource to use in order to find data breaches. It&rsquo;s impossible to link them here for obvious reasons, you can look for magnet links on <a href="https://btdig.com">btdigg</a> and for pastebins on <a href="https://psbdmp.cc/">psbdmp</a> and similar websites.</p>
-<h3 id="usernames">Usernames<a href="#usernames" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="usernames">Usernames<a hidden class="anchor" aria-hidden="true" href="#usernames">#</a></h3>
 <p><a href="https://whatsmyname.app/">whatsmyname</a> and <a href="https://namechk.com/">Namechk</a> are good tools to see where a username is being used, and its accounts tied to it.</p>
 <ul>
 <li>It is an awesome way to find old accounts that may contain critical information.</li>
@@ -544,7 +516,7 @@
 <li><a href="https://knowem.com/">knowem</a></li>
 <li><a href="https://instantusername.com/#/">instantusername</a></li>
 </ul>
-<h3 id="emails">Emails<a href="#emails" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="emails">Emails<a hidden class="anchor" aria-hidden="true" href="#emails">#</a></h3>
 <p><a href="https://haveibeenpwned.com/">Have I been pwned</a> is a good place to look for emails that have been found in data breaches.</p>
 <ul>
 <li>A good technique is to simply go to the Gmail login and see if the email exists. You can even click on “I forgot my password” and see if there are other emails linked to that account.</li>
@@ -557,17 +529,17 @@
 <li><a href="https://phonebook.cz/">phonebook.cz</a></li>
 <li><a href="https://epieos.com/">epieos</a></li>
 </ul>
-<h3 id="passwords">Passwords<a href="#passwords" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<h3 id="passwords">Passwords<a hidden class="anchor" aria-hidden="true" href="#passwords">#</a></h3>
 <p>When we are talking about passwords in OSINT, we are talking about finding breached credentials.</p>
 <ul>
 <li>By finding email and passwords, we can analyze them and look for a potential pattern that might come out.</li>
 <li>You can use <a href="https://dehashed.com/">dehashed.com</a> to see if a login has been breached.</li>
 <li>If you are dealing with a hashed password, a good thing to do is to try dehashing it on <a href="https://hashes.com/">hashes.com</a></li>
 </ul>
-<h2 id="real-state">Real state<a href="#real-state" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="real-state">Real state<a hidden class="anchor" aria-hidden="true" href="#real-state">#</a></h2>
 <p>When investigating real state, there are some tools that can help us get access to public records, information on who is selling it, etc…</p>
 <p>Some websites are: <a href="https://www.redfin.com/">redfin</a>, <a href="https://www.zillow.com/">zillow</a> and <a href="https://www.biggerpockets.com/">biggerpockets</a>. Note that not every house is going to be available on those websites for you to check, but it can be useful in a few cases.</p>
-<h2 id="deep-web">Deep web<a href="#deep-web" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="deep-web">Deep web<a hidden class="anchor" aria-hidden="true" href="#deep-web">#</a></h2>
 <p><strong>Take caution when accessing websites in the deep web.</strong> Never reveal your true identity or use the same email to create accounts.</p>
 <p>The deep web has a lot of websites that can help you find data breaches and other information that is not indexed in the surface web.</p>
 <ul>
@@ -576,7 +548,7 @@
 <li><a href="https://thehidden.wiki/">TheHiddenWiki</a> has a list of hidden services.</li>
 <li><a href="https://ddosecrets.com/wiki/Distributed_denial_of_secrets">ddosecrets</a> similar to wikileaks.</li>
 </ul>
-<h2 id="frameworks">Frameworks<a href="#frameworks" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="frameworks">Frameworks<a hidden class="anchor" aria-hidden="true" href="#frameworks">#</a></h2>
 <p>OSINT frameworks are basically a collection of tools in one place. Some of them are:</p>
 <ul>
 <li><a href="https://osintframework.com/">OSINT framework</a></li>
@@ -586,65 +558,101 @@
 <li><a href="https://github.com/mxrch/GHunt">https://github.com/mxrch/GHunt</a></li>
 <li><a href="https://github.com/megadose/holehe">Holehe</a></li>
 </ul>
-<h2 id="report-writing">Report writing<a href="#report-writing" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h2 id="report-writing">Report writing<a hidden class="anchor" aria-hidden="true" href="#report-writing">#</a></h2>
 <p>You should write an easy-to-read report containing the information that you found about the target and the steps necessary to get to them. Good reports use a non-technical language should be accessible to anyone.</p>
 <ul>
 <li>You can add a timeline report logging your steps.</li>
 <li>Create a profile of your target with quick information found and some links.</li>
 </ul>
 
-      </div></div>
-
-  
-  
-<div class="pagination">
-    <div class="pagination__title">
-        <span class="pagination__title-h"></span>
-        <hr />
-    </div>
-    <div class="pagination__buttons">
-        
-        <span class="button previous">
-            <a href="https://caetano-dev.github.io/posts/how-and-why-i-started-caring-about-privacy/how-and-why-i-started-caring-about-privacy/">
-                <span class="button__icon">←</span>
-                <span class="button__text">How and Why I Started Caring About Privacy</span>
-            </a>
-        </span>
-        
-        
-    </div>
-</div>
-
-  
-
-  
-</div>
 
   </div>
 
-  
-    <footer class="footer">
-  <div class="footer__inner">
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/osint/">OSINT</a></li>
+      <li><a href="/tags/cybersecurity/">Cybersecurity</a></li>
+      <li><a href="/tags/hacking/">Hacking</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="http://gohugo.io">Hugo</a></span>
-    
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
-      </div>
-  </div>
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">Caetano - Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
 
-<script src="https://caetano-dev.github.io/assets/main.js"></script>
-<script src="https://caetano-dev.github.io/assets/prism.js"></script>
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
 
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
 
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-
-
-
-  
-</div>
-
+</script>
 </body>
+
 </html>

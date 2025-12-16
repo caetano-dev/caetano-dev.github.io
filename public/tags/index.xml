@@ -1,181 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Caetano - Blog</title>
-    <link>https://caetano-dev.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Caetano - Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Sep 2024 12:30:10 -0300</lastBuildDate><atom:link href="https://caetano-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Sep 2024 12:30:10 -0300</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://caetano-dev.github.io/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Books</title>
-      <link>https://caetano-dev.github.io/tags/books/</link>
+      <link>/tags/books/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/books/</guid>
+      <guid>/tags/books/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Futurism</title>
-      <link>https://caetano-dev.github.io/tags/futurism/</link>
+      <link>/tags/futurism/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/futurism/</guid>
+      <guid>/tags/futurism/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Programming Languages</title>
-      <link>https://caetano-dev.github.io/tags/programming-languages/</link>
+      <link>/tags/programming-languages/</link>
       <pubDate>Tue, 03 Oct 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/programming-languages/</guid>
+      <guid>/tags/programming-languages/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Cities</title>
-      <link>https://caetano-dev.github.io/tags/cities/</link>
+      <link>/tags/cities/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/cities/</guid>
+      <guid>/tags/cities/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Countryside</title>
-      <link>https://caetano-dev.github.io/tags/countryside/</link>
+      <link>/tags/countryside/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/countryside/</guid>
+      <guid>/tags/countryside/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Lifestyle</title>
-      <link>https://caetano-dev.github.io/tags/lifestyle/</link>
+      <link>/tags/lifestyle/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/lifestyle/</guid>
+      <guid>/tags/lifestyle/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Mental Health</title>
-      <link>https://caetano-dev.github.io/tags/mental-health/</link>
+      <link>/tags/mental-health/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/mental-health/</guid>
+      <guid>/tags/mental-health/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Education</title>
-      <link>https://caetano-dev.github.io/tags/education/</link>
+      <link>/tags/education/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/education/</guid>
+      <guid>/tags/education/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Future</title>
-      <link>https://caetano-dev.github.io/tags/future/</link>
+      <link>/tags/future/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/future/</guid>
+      <guid>/tags/future/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>LLMs</title>
-      <link>https://caetano-dev.github.io/tags/llms/</link>
+      <link>/tags/llms/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/llms/</guid>
+      <guid>/tags/llms/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Technology</title>
-      <link>https://caetano-dev.github.io/tags/technology/</link>
+      <link>/tags/technology/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/technology/</guid>
+      <guid>/tags/technology/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Privacy</title>
-      <link>https://caetano-dev.github.io/tags/privacy/</link>
+      <link>/tags/privacy/</link>
       <pubDate>Sat, 11 Jun 2022 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/privacy/</guid>
+      <guid>/tags/privacy/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Surveillance</title>
-      <link>https://caetano-dev.github.io/tags/surveillance/</link>
+      <link>/tags/surveillance/</link>
       <pubDate>Sat, 11 Jun 2022 12:30:10 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/surveillance/</guid>
+      <guid>/tags/surveillance/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Cybersecurity</title>
-      <link>https://caetano-dev.github.io/tags/cybersecurity/</link>
+      <link>/tags/cybersecurity/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/cybersecurity/</guid>
+      <guid>/tags/cybersecurity/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Hacking</title>
-      <link>https://caetano-dev.github.io/tags/hacking/</link>
+      <link>/tags/hacking/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/hacking/</guid>
+      <guid>/tags/hacking/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>OSINT</title>
-      <link>https://caetano-dev.github.io/tags/osint/</link>
+      <link>/tags/osint/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      
-      <guid>https://caetano-dev.github.io/tags/osint/</guid>
+      <guid>/tags/osint/</guid>
       <description></description>
-      <content></content>
     </item>
-    
   </channel>
 </rss>
