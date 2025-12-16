@@ -2,7 +2,7 @@
 +++
 title = "Are we living another tech transition?"
 date = "2023-02-07T12:30:10-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["LLMs", "AI", "Technology", "Education", "Future"]
 keywords = ["LLMs", "AI", "Technology", "Education", "Future"]
 description = "Exploring the potential impact of Large Language Models (LLMs) on our daily lives and education."
@@ -10,8 +10,6 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
-
-# Are we living another tech transition?
 
 Ok, you probably already know about chatGPT at this point. That language model is great and I use it every day to help me do my stuff and learn to program, but, as someone who likes cyberpunk culture, it makes me wonder how the future is going to look like if this kind of technology evolves even more and gets popular amongst other people. Just a few years ago, most people did not have smartphones and now, they are an integral part of our lives. In a similar way, we are currently in a transition period where LLMs are becoming accessible.
 

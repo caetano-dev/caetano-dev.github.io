@@ -1,7 +1,7 @@
 +++
 title = "Big cities are terrible"
 date = "2023-03-08T12:30:10-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["Cities", "Lifestyle", "Countryside", "Mental Health"]
 keywords = ["Cities", "Lifestyle", "Countryside", "Mental Health"]
 description = "Ranting about how terrible big cities are and why I want to live in the countryside."
@@ -9,8 +9,6 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
-
-# Big cities are a terrible
 
 I want to get a remote job after I graduate, so that I can leave this shitty city where I live and move to the countryside or to another country. This place is too violent, loud, dirty and you almost have no peace at all living here. Every night feels like you are going to get your phone stolen or get killed by some criminal. Everything is expensive and everyone is trying to take advantages in detriment of other people. I like cyberpunk cities, but not in real life.
 

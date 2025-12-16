@@ -1,7 +1,7 @@
 +++
 title = "Programming language concepts"
 date = "2023-10-03T12:30:10-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["programming languages"]
 keywords = ["programming languages"]
 description = "A summary of how programming languages are structured and their different types."
@@ -9,8 +9,6 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
-
-# Programming language concepts
 
 This is a summary I have written for a college exam and thought it would be cool to share it here.
 

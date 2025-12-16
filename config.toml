@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Caetano - Blog'
+title = 'Pedro Caetano - Blog'
 theme = "PaperMod"
 
 [caches]
@@ -21,7 +21,7 @@ theme = "PaperMod"
 [languages]
     [languages.en]
 	  [languages.en.params]
-	    title = "Caetano - Blog"
+	    title = "Pedro Caetano - Blog"
 	    subtitle = "This is my personal blog where I share some of my tech knowledge."
 	    keywords = ["coding", "privacy", "FOOS", "free and open source", "hacking"]
 	    copyright = ""
@@ -30,7 +30,7 @@ theme = "PaperMod"
 	    readOtherPosts = "Read other posts"
 
 	    [languages.en.params.logo]
-	      logoText = "Caetano"
+	      logoText = "Pedro Caetano"
 	      logoHomeLink = "/"
 
 	    [languages.en.menu]

@@ -1,7 +1,7 @@
 +++
 title = "How and Why I Started Caring About Privacy"
 date = "2022-06-11T12:30:10-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["Privacy", "Surveillance"]
 keywords = ["Privacy", "Surveillance", "Digital privacy"]
 description = "Explaining the reasons why I became someone who cares about online privacy and the path I followed to change my digital life."
@@ -9,8 +9,6 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
-
-# How and why I started caring about privacy.
 
 ## Just another kid with internet access...
 

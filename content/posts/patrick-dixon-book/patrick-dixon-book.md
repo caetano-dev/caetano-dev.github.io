@@ -1,7 +1,7 @@
 +++
 title = "Quick thoughts on Patrick Dixon's 'How AI will change your life'"
 date = "2024-09-02T12:30:10-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["AI", "Futurism", "Books"]
 keywords = ["AI", "Futurism", "Books"]
 description = "What is on my mind after reading Dixon's book on AI."
@@ -9,8 +9,6 @@ showFullContent = false
 readingTime = true
 hideComments = false
 +++
-
-# Quick thoughts on Patrick Dixon's "How AI will change your life"
 
 These are some of my thoughs (maybe a quick review?) after reading Patrick Dixon's book on AI.
 

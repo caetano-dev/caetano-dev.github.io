@@ -1,7 +1,7 @@
 +++
 title = "Full OSINT Guide"
 date = "2022-05-23T10:13:24-03:00"
-author = "Caetano"
+author = "Pedro Caetano"
 tags = ["OSINT", "Cybersecurity", "Hacking"]
 keywords =["OSINT", "Cybersecurity", "Hacking"]
 description = "A collection of everything I have learned about OSINT from various resources."
@@ -11,8 +11,6 @@ hideComments = true
 TocTitle = "Table of contents"
 Toc = true
 +++
-
-# How to do OSINT - A brief introduction.
 
 This is a collection of everything I have learned about OSINT from various resources over the internet. Be aware that some of the tools presented here may change or stop working with time, which is normal. The most important thing you should get out of this is **to learn the methods used and be able to replicate them.**
 
