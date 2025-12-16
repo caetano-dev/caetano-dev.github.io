@@ -19,30 +19,31 @@ theme = "PaperMod"
   centerTheme = true 
 
 [languages]
-  [languages.en]
-    title = "Caetano - Blog"
-    subtitle = "This is my personal blog where I share some of my tech knowledge."
-    keywords = "coding, privacy, FOOS, free and open source, hacking"
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
+    [languages.en]
+	  [languages.en.params]
+	    title = "Caetano - Blog"
+	    subtitle = "This is my personal blog where I share some of my tech knowledge."
+	    keywords = "coding, privacy, FOOS, free and open source, hacking"
+	    copyright = ""
+	    menuMore = "Show more"
+	    readMore = "Read more"
+	    readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "Caetano"
-      logoHomeLink = "/"
+	    [languages.en.params.logo]
+	      logoText = "Caetano"
+	      logoHomeLink = "/"
 
-    [languages.en.menu]
-    #add more of these if I want more pages
-      [[languages.en.menu.main]]
-        identifier = "home"
-        name = "Home"
-        url = "/"
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "cv"
-        name = "CV"
-        url = "/cv"
+	    [languages.en.menu]
+	    #add more of these if I want more pages
+	      [[languages.en.menu.main]]
+		identifier = "home"
+		name = "Home"
+		url = "/"
+	      [[languages.en.menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about"
+	      [[languages.en.menu.main]]
+		identifier = "cv"
+		name = "CV"
+		url = "/cv"
