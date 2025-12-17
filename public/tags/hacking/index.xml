@@ -10,9 +10,9 @@
     <atom:link href="//localhost:1313/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full OSINT Guide</title>
-      <link>//localhost:1313/posts/full-osint-guide/full-osint-guide/</link>
+      <link>//localhost:1313/posts/full-osint-guide/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      <guid>//localhost:1313/posts/full-osint-guide/full-osint-guide/</guid>
+      <guid>//localhost:1313/posts/full-osint-guide/</guid>
       <description>A collection of everything I have learned about OSINT from various resources.</description>
     </item>
   </channel>

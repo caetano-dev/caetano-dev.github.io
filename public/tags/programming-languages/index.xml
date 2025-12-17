@@ -10,9 +10,9 @@
     <atom:link href="//localhost:1313/tags/programming-languages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming language concepts</title>
-      <link>//localhost:1313/posts/concepts-of-programming-languages/concepts-of-programming-languages/</link>
+      <link>//localhost:1313/posts/concepts-of-programming-languages/</link>
       <pubDate>Tue, 03 Oct 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/concepts-of-programming-languages/concepts-of-programming-languages/</guid>
+      <guid>//localhost:1313/posts/concepts-of-programming-languages/</guid>
       <description>A summary of how programming languages are structured and their different types.</description>
     </item>
   </channel>

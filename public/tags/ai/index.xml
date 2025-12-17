@@ -10,16 +10,16 @@
     <atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick thoughts on Patrick Dixon&#39;s &#39;How AI will change your life&#39;</title>
-      <link>//localhost:1313/posts/patrick-dixon-book/patrick-dixon-book/</link>
+      <link>//localhost:1313/posts/patrick-dixon-book/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/patrick-dixon-book/patrick-dixon-book/</guid>
+      <guid>//localhost:1313/posts/patrick-dixon-book/</guid>
       <description>What is on my mind after reading Dixon&amp;#39;s book on AI.</description>
     </item>
     <item>
       <title>Are we living another tech transition?</title>
-      <link>//localhost:1313/posts/are-we-living-another-tech-transition/are-we-living-another-tech-transition/</link>
+      <link>//localhost:1313/posts/are-we-living-another-tech-transition/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/are-we-living-another-tech-transition/are-we-living-another-tech-transition/</guid>
+      <guid>//localhost:1313/posts/are-we-living-another-tech-transition/</guid>
       <description>Exploring the potential impact of Large Language Models (LLMs) on our daily lives and education.</description>
     </item>
   </channel>
