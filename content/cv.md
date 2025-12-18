@@ -20,7 +20,7 @@ I modernized and maintained a few legacy codebases that were used by internal em
 
 I have contributed to some open source projects, most notably:
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube): A privacy-focused YouTube client built with Electron and React. I have contributed bug fixes and quality of life improvements to the project.
-- [PreMid](https://github.com/FreeTubeApp/FreeTube): An open source browser extension that enhances the Discord rich presence system. I have contributed by adding support for more websites and fixing existing ones.
+- [PreMid](https://github.com/PreMiD/Activities): An open source browser extension that enhances the Discord rich presence system. I have contributed by adding support for more websites and fixing existing ones.
 
 ---
 
