@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Journaling on Pedro Caetano - Blog</title>
-    <link>//localhost:1313/tags/journaling/</link>
+    <link>/tags/journaling/</link>
     <description>Recent content in Journaling on Pedro Caetano - Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Dec 2025 17:12:10 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/journaling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/journaling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on Journaling</title>
-      <link>//localhost:1313/posts/thoughts-on-journaling/</link>
+      <link>/posts/thoughts-on-journaling/</link>
       <pubDate>Wed, 17 Dec 2025 17:12:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/thoughts-on-journaling/</guid>
+      <guid>/posts/thoughts-on-journaling/</guid>
       <description>Talking about my practice of journaling and a quick guide on how to start your own.</description>
     </item>
   </channel>

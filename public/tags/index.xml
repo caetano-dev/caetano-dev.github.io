@@ -2,129 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Pedro Caetano - Blog</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Pedro Caetano - Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Dec 2025 17:12:10 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>//localhost:1313/tags/guide/</link>
+      <link>/tags/guide/</link>
       <pubDate>Wed, 17 Dec 2025 17:12:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/guide/</guid>
+      <guid>/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Journaling</title>
-      <link>//localhost:1313/tags/journaling/</link>
+      <link>/tags/journaling/</link>
       <pubDate>Wed, 17 Dec 2025 17:12:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/journaling/</guid>
+      <guid>/tags/journaling/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>//localhost:1313/tags/ai/</link>
+      <link>/tags/ai/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/ai/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>//localhost:1313/tags/books/</link>
+      <link>/tags/books/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/books/</guid>
+      <guid>/tags/books/</guid>
       <description></description>
     </item>
     <item>
       <title>Futurism</title>
-      <link>//localhost:1313/tags/futurism/</link>
+      <link>/tags/futurism/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/futurism/</guid>
+      <guid>/tags/futurism/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming Languages</title>
-      <link>//localhost:1313/tags/programming-languages/</link>
+      <link>/tags/programming-languages/</link>
       <pubDate>Tue, 03 Oct 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/programming-languages/</guid>
+      <guid>/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>/tags/automation/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cities</title>
-      <link>//localhost:1313/tags/cities/</link>
+      <link>/tags/cities/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/cities/</guid>
+      <guid>/tags/cities/</guid>
       <description></description>
     </item>
     <item>
       <title>Countryside</title>
-      <link>//localhost:1313/tags/countryside/</link>
+      <link>/tags/countryside/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/countryside/</guid>
+      <guid>/tags/countryside/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entertainment</title>
+      <link>/tags/entertainment/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>/tags/entertainment/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifestyle</title>
-      <link>//localhost:1313/tags/lifestyle/</link>
+      <link>/tags/lifestyle/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/lifestyle/</guid>
+      <guid>/tags/lifestyle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>/tags/media/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>/tags/media/</guid>
       <description></description>
     </item>
     <item>
       <title>Mental Health</title>
-      <link>//localhost:1313/tags/mental-health/</link>
+      <link>/tags/mental-health/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/mental-health/</guid>
+      <guid>/tags/mental-health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scripting</title>
+      <link>/tags/scripting/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>/tags/scripting/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>//localhost:1313/tags/education/</link>
+      <link>/tags/education/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/education/</guid>
+      <guid>/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
-      <link>//localhost:1313/tags/future/</link>
+      <link>/tags/future/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/future/</guid>
+      <guid>/tags/future/</guid>
       <description></description>
     </item>
     <item>
       <title>LLMs</title>
-      <link>//localhost:1313/tags/llms/</link>
+      <link>/tags/llms/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/llms/</guid>
+      <guid>/tags/llms/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>//localhost:1313/tags/technology/</link>
+      <link>/tags/technology/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/tags/technology/</guid>
+      <guid>/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>//localhost:1313/tags/cybersecurity/</link>
+      <link>/tags/cybersecurity/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      <guid>//localhost:1313/tags/cybersecurity/</guid>
+      <guid>/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Hacking</title>
-      <link>//localhost:1313/tags/hacking/</link>
+      <link>/tags/hacking/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      <guid>//localhost:1313/tags/hacking/</guid>
+      <guid>/tags/hacking/</guid>
       <description></description>
     </item>
     <item>
       <title>OSINT</title>
-      <link>//localhost:1313/tags/osint/</link>
+      <link>/tags/osint/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      <guid>//localhost:1313/tags/osint/</guid>
+      <guid>/tags/osint/</guid>
       <description></description>
     </item>
   </channel>

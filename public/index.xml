@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pedro Caetano - Blog</title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on Pedro Caetano - Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Dec 2025 17:12:10 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on Journaling</title>
-      <link>//localhost:1313/posts/thoughts-on-journaling/</link>
+      <link>/posts/thoughts-on-journaling/</link>
       <pubDate>Wed, 17 Dec 2025 17:12:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/thoughts-on-journaling/</guid>
+      <guid>/posts/thoughts-on-journaling/</guid>
       <description>Talking about my practice of journaling and a quick guide on how to start your own.</description>
     </item>
     <item>
       <title>Quick thoughts on Patrick Dixon&#39;s &#39;How AI will change your life&#39;</title>
-      <link>//localhost:1313/posts/patrick-dixon-book/</link>
+      <link>/posts/patrick-dixon-book/</link>
       <pubDate>Mon, 02 Sep 2024 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/patrick-dixon-book/</guid>
+      <guid>/posts/patrick-dixon-book/</guid>
       <description>What is on my mind after reading Dixon&amp;#39;s book on AI.</description>
     </item>
     <item>
       <title>Programming language concepts</title>
-      <link>//localhost:1313/posts/concepts-of-programming-languages/</link>
+      <link>/posts/concepts-of-programming-languages/</link>
       <pubDate>Tue, 03 Oct 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/concepts-of-programming-languages/</guid>
+      <guid>/posts/concepts-of-programming-languages/</guid>
       <description>A summary of how programming languages are structured and their different types.</description>
     </item>
     <item>
-      <title>Big cities are terrible</title>
-      <link>//localhost:1313/posts/big-cities-are-terrible/</link>
+      <title>Automating my video consumption workflow with code</title>
+      <link>/posts/automating-my-video-consumption-workflow/</link>
       <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/big-cities-are-terrible/</guid>
+      <guid>/posts/automating-my-video-consumption-workflow/</guid>
+      <description>How I use code to manage the series and YouTube videos I watch across my computer, phone and TV</description>
+    </item>
+    <item>
+      <title>Big cities are terrible</title>
+      <link>/posts/big-cities-are-terrible/</link>
+      <pubDate>Wed, 08 Mar 2023 12:30:10 -0300</pubDate>
+      <guid>/posts/big-cities-are-terrible/</guid>
       <description>Ranting about how terrible big cities are and why I want to live in the countryside.</description>
     </item>
     <item>
       <title>Are we living another tech transition?</title>
-      <link>//localhost:1313/posts/are-we-living-another-tech-transition/</link>
+      <link>/posts/are-we-living-another-tech-transition/</link>
       <pubDate>Tue, 07 Feb 2023 12:30:10 -0300</pubDate>
-      <guid>//localhost:1313/posts/are-we-living-another-tech-transition/</guid>
+      <guid>/posts/are-we-living-another-tech-transition/</guid>
       <description>Exploring the potential impact of Large Language Models (LLMs) on our daily lives and education.</description>
     </item>
     <item>
       <title>Full OSINT Guide</title>
-      <link>//localhost:1313/posts/full-osint-guide/</link>
+      <link>/posts/full-osint-guide/</link>
       <pubDate>Mon, 23 May 2022 10:13:24 -0300</pubDate>
-      <guid>//localhost:1313/posts/full-osint-guide/</guid>
+      <guid>/posts/full-osint-guide/</guid>
       <description>A collection of everything I have learned about OSINT from various resources.</description>
     </item>
     <item>
       <title>About this website.</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;
 &lt;p&gt;This blog is a place for me to post things I have been writing to myself, but want to share with the world. Maybe not everything here will be tech related, but that&amp;rsquo;s my focus.&lt;/p&gt;
 &lt;h2 id=&#34;but-who-am-i&#34;&gt;But who am I?&lt;/h2&gt;
@@ -62,9 +69,9 @@
     </item>
     <item>
       <title>CV</title>
-      <link>//localhost:1313/cv/</link>
+      <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/cv/</guid>
+      <guid>/cv/</guid>
       <description>&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;FullStack Intern @ BNDES &amp;ndash; Jul 2023 - Jul 2024&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I modernized and maintained a few legacy codebases that were used by internal employees. I mostly programmed in TypeScript, Java and Python, using Angular and Spring Boot.&lt;/p&gt;
@@ -76,7 +83,7 @@
 &lt;p&gt;I have contributed to some open source projects, most notably:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;FreeTube&lt;/a&gt;: A privacy-focused YouTube client built with Electron and React. I have contributed bug fixes and quality of life improvements to the project.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/FreeTubeApp/FreeTube&#34;&gt;PreMid&lt;/a&gt;: An open source browser extension that enhances the Discord rich presence system. I have contributed by adding support for more websites and fixing existing ones.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/PreMiD/Activities&#34;&gt;PreMid&lt;/a&gt;: An open source browser extension that enhances the Discord rich presence system. I have contributed by adding support for more websites and fixing existing ones.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;

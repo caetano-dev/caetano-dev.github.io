@@ -29,7 +29,7 @@ theme = "PaperMod"
 	  [languages.en.params]
 	    title = "Pedro Caetano - Blog"
 	    subtitle = "This is my personal blog where I share some of my tech knowledge."
-	    keywords = ["coding", "privacy", "FOOS", "free and open source", "hacking"]
+	    keywords = ["coding", "privacy", "FOSS", "free and open source", "hacking", "development", "automation"]
 	    copyright = ""
 	    menuMore = "Show more"
 	    readMore = "Read more"

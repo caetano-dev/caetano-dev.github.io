@@ -2,92 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/guide/</loc>
+    <loc>/tags/guide/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/journaling/</loc>
+    <loc>/tags/journaling/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/thoughts-on-journaling/</loc>
+    <loc>/posts/thoughts-on-journaling/</loc>
     <lastmod>2025-12-17T17:12:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/ai/</loc>
+    <loc>/tags/ai/</loc>
     <lastmod>2024-09-02T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/books/</loc>
+    <loc>/tags/books/</loc>
     <lastmod>2024-09-02T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/futurism/</loc>
+    <loc>/tags/futurism/</loc>
     <lastmod>2024-09-02T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/patrick-dixon-book/</loc>
+    <loc>/posts/patrick-dixon-book/</loc>
     <lastmod>2024-09-02T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/concepts-of-programming-languages/</loc>
+    <loc>/posts/concepts-of-programming-languages/</loc>
     <lastmod>2023-10-03T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/programming-languages/</loc>
+    <loc>/tags/programming-languages/</loc>
     <lastmod>2023-10-03T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/big-cities-are-terrible/</loc>
+    <loc>/posts/automating-my-video-consumption-workflow/</loc>
     <lastmod>2023-03-08T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cities/</loc>
+    <loc>/tags/automation/</loc>
     <lastmod>2023-03-08T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/countryside/</loc>
+    <loc>/posts/big-cities-are-terrible/</loc>
     <lastmod>2023-03-08T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lifestyle/</loc>
+    <loc>/tags/cities/</loc>
     <lastmod>2023-03-08T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mental-health/</loc>
+    <loc>/tags/countryside/</loc>
     <lastmod>2023-03-08T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/are-we-living-another-tech-transition/</loc>
+    <loc>/tags/entertainment/</loc>
+    <lastmod>2023-03-08T12:30:10-03:00</lastmod>
+  </url><url>
+    <loc>/tags/lifestyle/</loc>
+    <lastmod>2023-03-08T12:30:10-03:00</lastmod>
+  </url><url>
+    <loc>/tags/media/</loc>
+    <lastmod>2023-03-08T12:30:10-03:00</lastmod>
+  </url><url>
+    <loc>/tags/mental-health/</loc>
+    <lastmod>2023-03-08T12:30:10-03:00</lastmod>
+  </url><url>
+    <loc>/tags/scripting/</loc>
+    <lastmod>2023-03-08T12:30:10-03:00</lastmod>
+  </url><url>
+    <loc>/posts/are-we-living-another-tech-transition/</loc>
     <lastmod>2023-02-07T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/education/</loc>
+    <loc>/tags/education/</loc>
     <lastmod>2023-02-07T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/future/</loc>
+    <loc>/tags/future/</loc>
     <lastmod>2023-02-07T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/llms/</loc>
+    <loc>/tags/llms/</loc>
     <lastmod>2023-02-07T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/technology/</loc>
+    <loc>/tags/technology/</loc>
     <lastmod>2023-02-07T12:30:10-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/cybersecurity/</loc>
+    <loc>/tags/cybersecurity/</loc>
     <lastmod>2022-05-23T10:13:24-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/full-osint-guide/</loc>
+    <loc>/posts/full-osint-guide/</loc>
     <lastmod>2022-05-23T10:13:24-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/hacking/</loc>
+    <loc>/tags/hacking/</loc>
     <lastmod>2022-05-23T10:13:24-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/osint/</loc>
+    <loc>/tags/osint/</loc>
     <lastmod>2022-05-23T10:13:24-03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/cv/</loc>
+    <loc>/cv/</loc>
   </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>/search/</loc>
   </url>
 </urlset>
