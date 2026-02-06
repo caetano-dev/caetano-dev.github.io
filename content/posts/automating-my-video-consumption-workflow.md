@@ -1,6 +1,6 @@
 +++
 title = "Automating my video consumption workflow with code"
-date = "2023-03-08T12:30:10-03:00"
+date = "2025-02-06T12:30:10-03:00"
 author = "Pedro Caetano"
 tags = ["Entertainment", "Media", "Scripting", "Automation"]
 keywords = ["Videos", "Series", "MPV", "Golang, Automation", "Scripting"]
