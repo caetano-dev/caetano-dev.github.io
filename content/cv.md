@@ -24,6 +24,13 @@ I have contributed to some open source projects, most notably:
 
 ---
 
+## Some of my projects
+
+- [Longevity Rank](https://longevity-rank.vercel.app/): A price comparison website for longevity suplements. It uses Go to scrape websites and GitHub Actions to update the data.
+- [Gopher Find](https://github.com/caetano-dev/Gopher-Find): A ultra fast OSINT tool for enumerating usernames from social accounts. It utilizes Go's concurrency.
+- [Mandaread](https://github.com/caetano-dev/mandaread): Mandarin learning app that focuses on the words you don't know.
+- And many more on my [GitHub](https://github.com/caetano-dev)
+
 ## Skills
 
 Typescript, Javascript, Go, Python, Java, Swift, React, Next.js, Angular, Vue, Node.js, PostgreSQL, OracleDB, TailwindCSS, HTML5/CSS3, SwiftUI, Git (Branching/PR workflows), Docker, CI/CD Pipelines, Unix-like environments.		
