@@ -4,6 +4,10 @@ title = "CV"
 
 ## Work Experience
 
+**Software Engineer @ Ferreri.co -- Jun 2026 - Present**
+
+Building microservices in Ruby on Rails.
+
 **FullStack Intern @ BNDES -- Jul 2023 - Jul 2024**
 
 I modernized and maintained a few legacy codebases that were used by internal employees. I mostly programmed in TypeScript, Java and Python, using Angular and Spring Boot.
@@ -12,7 +16,7 @@ I modernized and maintained a few legacy codebases that were used by internal em
 
 ## Education
 
-**BSc in Computer Science @ UERJ -- Jul 2021 - Jul 2026 (expected)**
+**BSc in Computer Science @ UERJ -- Jul 2021 - Oct 2026 (expected)**
 
 ---
 
